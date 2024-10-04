@@ -21,3 +21,11 @@ numbers[0] =5;
 numbers.forEach(n => n.toString)
 
 
+let user: [number, string] =[1,'Mosh']
+user.push(1);
+
+enum Size {Small=1 ,Medium,Large};
+let mySize : number = Size.Large;
+
+
+
